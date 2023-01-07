@@ -1,0 +1,3 @@
+module array {
+	exports array;
+}
