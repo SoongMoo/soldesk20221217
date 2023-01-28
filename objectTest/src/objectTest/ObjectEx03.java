@@ -3,14 +3,15 @@ package objectTest;
 public class ObjectEx03 {
 
 	public static void main(String[] args) {
+		//myCar1 인스턴스
 		Car1 myCar1 = new Car1();
 		myCar1.color = "빨강";
 		myCar1.speed = 0;
-		
+		//myCar2 인스턴스
 		Car1 myCar2 = new Car1(); 
 		myCar2.color = "파랑";
 		myCar2.speed = 0;
-		
+		//myCar3 인스턴스
 		Car1 myCar3 = new Car1(); 
 		myCar3.color = "노랑";
 		myCar3.speed = 0;

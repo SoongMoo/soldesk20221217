@@ -1,10 +1,11 @@
 package objectTest;
 
 public class Car1 {
-	String color; // 필드
-	int speed; // 필드
+	// 멤버 필드
+	String color; // 필드 , 인스턴스 변수
+	int speed; // 필드 , 인스턴스 변수
 	
-	void upSpeed(int value) { // value : parameter
+	void upSpeed(int value) { // value : parameter , 블록변수
 		speed += value;
 	}
 	void downSpeed(int value) {
